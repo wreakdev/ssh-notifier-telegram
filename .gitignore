@@ -1,0 +1,10 @@
+# Py Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Docker logs
+*.log
+
+# Sensitive Data
+.env
