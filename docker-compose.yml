@@ -8,5 +8,7 @@ services:
     volumes:
       - /var/log/journal:/var/log/journal:ro
       - /etc/machine-id:/etc/machine-id:ro
+    environment:
+      - TZ=Europe/Prague
     env_file:
       - .env
